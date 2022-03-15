@@ -2,7 +2,6 @@ import React from "react";
 import "./TechTag.css";
 
 const TechTag = ({tags}) => {
-    console.log(tags);
 
     return(
         <div className="tag-container">
