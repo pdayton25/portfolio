@@ -1,4 +1,5 @@
 import React from "react";
+import "./TechTag.css";
 
 const TechTag = ({tags}) => {
     console.log(tags);
@@ -9,7 +10,7 @@ const TechTag = ({tags}) => {
                 tags.map((tag) => {
                     return (
                     <div className="tag-border">
-                        <div className="tag">{tag}</div>
+                        <div className="tag" key={tag}>{tag}</div>
                     </div>
                     );
                 })

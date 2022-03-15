@@ -1,0 +1,28 @@
+
+:root{
+    --head-font: #514B43;
+}
+.project-container{
+    margin: 0 auto;
+    align-items: center;
+    background-color: #B5A797;
+}
+.second-project-container {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 68px;
+}
+.project-header {
+    color: var(--head-font);
+    text-align: right;
+    margin-bottom: 30px;
+}
+.proj-sec-header {
+    margin: 0;
+}
+.proj-header {
+    margin: 0;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 47px;
+}

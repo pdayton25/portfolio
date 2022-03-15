@@ -1,12 +1,15 @@
 import React from "react";
+import "./Header.css";
 
 const Header = () => {
     return (
         <section className="header-container">
-            <img src="" alt="logo"></img>
-            <div className="links">
-                <a href="#" className="button">PROJECTS</a>
-                <a href="#" className="button">CONTACT</a>
+            <div className="inner-container">
+                    <img src={require("../assets/logo.png")} alt="logo" className="logo"></img>
+                <div className="links">
+                    <a href="#" className="button">PROJECTS</a>
+                    <a href="#" className="button">CONTACT</a>
+                </div>
             </div>
         </section>
     )
