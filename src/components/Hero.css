@@ -40,7 +40,11 @@
     margin-top: 5px;
     margin-bottom: 40px;
 }
-.description {
+.personal-description {
     font-weight: 200;
     font-size: 1.1rem;
+}
+.tag-group{
+    display:flex;
+    justify-content: left;
 }

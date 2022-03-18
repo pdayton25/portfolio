@@ -8,7 +8,7 @@
 }
 .header-container {
     display: flex;
-    height: 123px;
+    height: 100px;
     width: 100%;
     background-color: var(--main-bg-color);
     align-items: center;
@@ -32,5 +32,5 @@
     margin-left: 48px;
 }
 .logo {
-    height: 90px;
+    height: 70px;
 }

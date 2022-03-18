@@ -1,12 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import { project } from '../data';
 import TechTag from "./TechTag";
 import Button from "./Button";
 import "./ProjectCards.css";
 
 const ProjectCards = () => {
-
-    const [ isDisplayed, setIsDisplayed ] = useState(true);
 
     return (
         <section className="project-container">
@@ -20,24 +18,20 @@ const ProjectCards = () => {
                         project.map(({name, tags, description, key}) => {
                             return (
                                 <div 
-                                    className="project-card"
+                                    className={`project-card-${key}`}
                                     key={key} 
-                                    onMouseEnter={() => setIsDisplayed(true)}
-                                    onMouseLeave={() => setIsDisplayed(false)}
                                 >
                                     <img src={ require(`../assets/${name}.png`)} alt={`project: ${name}`} className="image"/>
-                                { isDisplayed && (
                                     <div className="overlay">
                                         <div className="name">{name}</div>
                                         <div className="tag-wrapper">
-                                            <TechTag tags={tags} card="card"/>
+                                            <TechTag tags={tags}/>
                                         </div>
                                         <div className="description">{description}</div>
                                         <Button 
                                             name = "VIEW PROJECT"    
                                         />
                                     </div>
-                                )}
                                 </div>
                             )
                         })

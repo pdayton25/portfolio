@@ -17,7 +17,7 @@ const Hero = () => {
                         <p className="name">PATRICK DAYTON</p>
                     </div>
                     <div className="description-container">
-                        <div className="description">
+                        <div className="personal-description">
                             <p>Hello world, my name is Patrick.</p>
                             <p>I am a front end web developer with a passion for design. Starting in commercial real-estate, I quickly realized web development was the carreer path I wanted to go down.</p>
                             <p>As a self taught developer I have worked with and am proficient with the following:</p>
