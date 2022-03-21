@@ -7,7 +7,7 @@ import "./ProjectCards.css";
 const ProjectCards = () => {
 
     return (
-        <section className="project-container">
+        <section className="project-container" id="projects">
             <div className="second-project-container">
                 <div className="project-header">
                     <p className="proj-sec-header">recent works im most proud of</p>
@@ -22,7 +22,7 @@ const ProjectCards = () => {
                                     key={key} 
                                 >
                                     <img src={ require(`../assets/${name}.png`)} alt={`project: ${name}`} className="image"/>
-                                    <div className="overlay">
+                                    <div className={`overlay color-${key}`}>
                                         <div className="name">{name}</div>
                                         <div className="tag-wrapper">
                                             <TechTag tags={tags}/>

@@ -9,7 +9,7 @@ const tags = [
 
 const Hero = () => {
     return (
-        <section className="hero-container">
+        <section className="hero-container" id="hero">
             <div className='content-container'>
                 <div className="content">
                     <div className="name-wrapper">
