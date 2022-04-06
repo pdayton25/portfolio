@@ -4,6 +4,7 @@ import Header from './components/Header';
 import ProjectCards from "./components/ProjectCards";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Project from "./components/Project";
 import "./App.css";
 
 
@@ -16,6 +17,7 @@ const App = () => {
       <ProjectCards />
       <Contact />
       <Footer />
+      <Project />
     </div>
   )
 };

@@ -20,3 +20,14 @@
     padding: 2px 20px 2px 20px;
     font-size: 16px;
 }
+
+/* MEDIA */
+
+
+/* Small Tags */
+@media only screen and (max-device-width : 1200px) {
+    .tag {
+        font-size: 14px;
+        padding: 1.5px 17px 1.5px 17px;
+    }
+}
