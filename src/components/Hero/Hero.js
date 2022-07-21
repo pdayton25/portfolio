@@ -1,14 +1,8 @@
 import React from 'react';
 import "./Hero.css";
 
-const tags = [
-    'HTML', 'CSS', 'Javascript', 'React', 'Git', 'Figma', 'Redux'
-];
-const familiarTags = [
-    'Typescript', 'Next', 'Shopify Polaris'
-]
 
-
+//Wire up email contact
 
 const Hero = () => {
     return (
