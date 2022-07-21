@@ -20,13 +20,13 @@ const Hero = () => {
                     <p className='job'>Front End Web Developer</p>
                     <div className='link-container'>
                         <a className='social-icon' href='https://twitter.com/0xDayton'>
-                            <img src={require('../assets/Twitter.png')} alt='twitter' className='social'/>
+                            <img src={require('../../assets/Twitter.png')} alt='twitter' className='social'/>
                         </a>
                         <a className='social-icon' href='https://www.linkedin.com/in/patrick-dayton-902b7176/'>
-                            <img src={require('../assets/LinkedIn.png')} alt='linkedin' className='social'/>
+                            <img src={require('../../assets/LinkedIn.png')} alt='linkedin' className='social'/>
                         </a>
                         <a className='social-icon' href='https://github.com/pdayton25'>
-                            <img src={require('../assets/GitHub.png')} alt='github' className='social'/>
+                            <img src={require('../../assets/GitHub.png')} alt='github' className='social'/>
                         </a>
                     </div>
                     <div className='links'>
@@ -52,7 +52,7 @@ const Hero = () => {
         </div>
         <div className="content flex">
             <a href='#about' className='downarrow'>
-                <img src={require('../assets/arrow.png')} alt='navigation arrow' className='arrow'/>
+                <img src={require('../../assets/arrow.png')} alt='navigation arrow' className='arrow'/>
             </a>
         </div>
         </>

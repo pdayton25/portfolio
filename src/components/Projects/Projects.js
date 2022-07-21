@@ -1,5 +1,5 @@
 import React from 'react';
-import { project } from '../data';
+import { project } from '../../data';
 import TechTag from './TechTag';
 
 const Project = () => {
