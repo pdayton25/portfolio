@@ -25,6 +25,7 @@ const About = () => {
                 <p>Languange</p>
               </div>
               <div className="skill">Javascript</div>
+              <div className="skill">Typescript</div>
             </div>
           </div>
           <div className="skills">
@@ -35,7 +36,6 @@ const About = () => {
               <div className="skill">React</div>
               <div className="skill">Shopify Polaris</div>
               <div className="skill">HTML/CSS</div>
-              <div className="skill">Typescript</div>
             </div>
           </div>
           <div className="skills">

@@ -1,27 +1,39 @@
-export const project = [
+export const projects = [
     {
-        name: 'art',
-        description: 'This project brought to life my work on the online world.This project brought to life my work on the online world.This project brought to life my work on the online world.This project brought to life my work on the online world.',
-        tags: ['HTML', 'CSS', 'Javascript', 'React','figma'],
+        name: 'Bundazzle (Shopify App)',
+        description: 'Bundazzle is a e-commerce application that allows customers to create custom bundles, incentivized by various seller determines discounts at specific thresholds. I have taken the lead in designing and developing the admin panel for stores to create bundle campaigns. Estimated release date Sept 2022.',
+        tech: 'Typescript, React SSR w/ Next.js, Shopify Polaris, Figma',
+        img: 'Bundazzle.png',
+        link: {
+            url: '',
+            navigate: '',
+            display: 'hide'
+        },
         key: 1,
     },
     {
-        name: 'collage',
-        description: 'This project allows for anyone to view their own NFTs in their wallet, Many wallets dont currently support viewing the NFTs directly so I created an app that allows users to do so! Click random address to view one of the previously saved wallets',
-        tags: ['HTML', 'CSS', 'Javascript', 'APIs', 'React','figma', 'Web3'],
+        name: 'Dayton Design',
+        description: 'Dayton Designs is a design agency catered to commercial real estate operators, we provide web development, design, and templated solutions for finanical reporting and other collateral.',
+        tech: 'React, HTML, CSS, Figma',
+        img: 'Daytondesign.png',
+        link: {
+            url: 'https://dayton-design.vercel.app/',
+            navigate: 'Check it out',
+            display: ''
+        },
         key: 2,
     },
     {
-        name : 'skylight',
-        description: 'Envisioned as a new way to apartment hunt based on lifestyle, I worked on designing their application while concurrently working in real estate. Product has not been launched but has been used as a guide for future site features ',
-        tags: ['HTML', 'CSS', 'figma'],
+        name : 'Collage',
+        description: 'Collage is a web page that allows for users holding NFTs to display them in one space by entering their wallet address.',
+        tech: 'React, HTML, CSS, Figma',
+        img: 'Collage.png',
+        link: {
+            url: 'https://collage-gilt.vercel.app/',
+            navigate: 'Check it out',
+            display: ''
+        },
         key: 3,
-    },
-    {
-        name: 'skylight',
-        description: 'This project allows for anyone to view their own NFTs in their wallet, Many wallets dont currently support viewing the NFTs directly so I created an app that allows users to do so! Click random address to view one of the previously saved wallets',
-        tags: ['HTML', 'CSS', 'Javascript', 'APIs', 'React','figma', 'Web3'],
-        key: 4,
     }
 ]
 ;

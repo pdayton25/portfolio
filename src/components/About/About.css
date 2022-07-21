@@ -19,6 +19,7 @@
 }
 .hi{
     font-size: 1.5rem;
+    font-family: 'Lato', sans-serif;
     font-weight: 300;
     margin: .45rem;
 }
@@ -34,6 +35,7 @@
 }
 .education {
     margin: .2rem;
+    font-family: "Lato";
 }
 
 .skills-wrapper {
@@ -59,11 +61,14 @@
 }
 .skill-title {
     font-size: 1.2rem;
+    font-family: 'Lato';
     font-weight: 300;
 }
 .skill {
     padding-top: .5rem;
+    font-family: "Lato", sans-serif;
     padding-bottom: .5rem;
+    color: rgb(74, 74, 74);
 }
 @media screen and (max-width: 450px) {
     .skills-wrapper {
