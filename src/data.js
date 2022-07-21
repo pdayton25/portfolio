@@ -18,7 +18,7 @@ export const project = [
         key: 3,
     },
     {
-        name: 'clothing',
+        name: 'skylight',
         description: 'This project allows for anyone to view their own NFTs in their wallet, Many wallets dont currently support viewing the NFTs directly so I created an app that allows users to do so! Click random address to view one of the previously saved wallets',
         tags: ['HTML', 'CSS', 'Javascript', 'APIs', 'React','figma', 'Web3'],
         key: 4,

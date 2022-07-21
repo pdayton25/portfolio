@@ -5,20 +5,22 @@ import ProjectCards from "./components/ProjectCards";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Project from "./components/Project";
+import About from './components/About/About';
 import "./App.css";
 
 
 const App = () => {
   return (
     <div className="container">
-      <Header />
-      <div className="spacer"></div>
       <Hero />
-      <ProjectCards />
-      <Contact />
-      <Footer />
-      <Project />
+      <About />
     </div>
   )
 };
 export default App;
+
+/*
+      <Header />
+      <ProjectCards />
+      <Footer />
+*/
