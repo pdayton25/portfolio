@@ -111,6 +111,10 @@ body {
 .social {
   width: 50px;
 }
+.mail {
+  filter: invert(100%);
+  width: 42px;
+}
 .arrow {
   transform: scale(.7);
 }
@@ -130,6 +134,11 @@ body {
   margin: 1rem;
   color: white;
   font-size: 1.5rem;
+}
+.link-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .job {
   font-size: 1.2rem;

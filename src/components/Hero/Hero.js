@@ -13,8 +13,8 @@ const Hero = () => {
                     <h1 className='name'>Patrick Dayton</h1>
                     <p className='job'>Front End Web Developer</p>
                     <div className='link-container'>
-                        <a className='social-icon' href='https://twitter.com/0xDayton'>
-                            <img src={require('../../assets/Twitter.png')} alt='twitter' className='social'/>
+                        <a className='social-icon' href='mailto:patrick.dayton24@gmail.com'>
+                            <img src={require('../../assets/mail-icon.jpeg')} alt='email' className='social mail'/>
                         </a>
                         <a className='social-icon' href='https://www.linkedin.com/in/patrick-dayton-902b7176/'>
                             <img src={require('../../assets/LinkedIn.png')} alt='linkedin' className='social'/>
