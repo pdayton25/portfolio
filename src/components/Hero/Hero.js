@@ -11,7 +11,7 @@ const Hero = () => {
             <div className="inner-header flex">
                 <div>
                     <h1 className='name'>Patrick Dayton</h1>
-                    <p className='job'>Front End Web Developer</p>
+                    <p className='job'>Software Engineer</p>
                     <div className='link-container'>
                         <a className='social-icon' href='mailto:patrick.dayton24@gmail.com'>
                             <img src={require('../../assets/mail-icon.jpeg')} alt='email' className='social mail'/>

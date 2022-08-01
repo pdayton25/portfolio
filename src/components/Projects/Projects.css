@@ -1,5 +1,5 @@
-.project-container {
-    width: 90%;
+.projects-container {
+    width: 70%;
     display: flex;
     margin: 0 auto;
     flex-direction: column;

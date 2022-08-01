@@ -10,7 +10,7 @@ const About = () => {
           <div className="work-education-container">
             <div className="education-container">
               <img src={require('../../assets/Suitcase.png')} alt='suitcase icon' className="mortarboard"/>
-              <p className="education">Web Developer &amp; Designer at Dayton Design</p>
+              <p className="education">Software Engineer &amp; Designer at Dayton Design</p>
             </div>
             <div className="education-container">
               <img src={require('../../assets/Mortarboard.png')} alt='graduation icon' className="mortarboard"/>
