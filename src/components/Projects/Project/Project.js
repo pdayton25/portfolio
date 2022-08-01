@@ -4,7 +4,7 @@ import './Project.css';
 const Project = ({name, description, tech, img, link}, index) => {
 
     return (
-        <div className="project-container" key={index}>
+        <div className="project-container" key={index} data-aos='fade-up'>
             <div className="img-container">
                 <img className="project-img" src={require(`../../../assets/${img}`)} alt="project"/>
             </div>
