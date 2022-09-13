@@ -3,7 +3,7 @@ export const projects = [
         name: 'Bundazzle (Shopify App)',
         description: 'Bundazzle is a e-commerce application that allows customers to create custom bundles, incentivized by various seller determined discounts at specific thresholds. I have taken the lead in designing and developing the admin panel for stores to create bundle campaigns. Estimated release date Nov. 2022.',
         tech: ['Typescript', 'React SSR w/ Next.js', 'Shopify Polaris', 'Figma', 'Redux'],
-        img: 'Bundazzle.png',
+        img: 'BundazzleWidget.png',
         link: {
             url: '',
             navigate: '',
