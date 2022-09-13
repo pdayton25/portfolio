@@ -7,7 +7,6 @@ import './Projects.css';
 const Projects = () => {
     return (
         <section id="projects" className='projects-container'>
-            <h1 className='section-title'>Projects</h1>
             <div className='projects'>
                 {projects.map(({name, description,tech, img, link}, index) => {
                     return <Project 

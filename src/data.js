@@ -1,7 +1,7 @@
 export const projects = [
     {
         name: 'Bundazzle (Shopify App)',
-        description: 'Bundazzle is a e-commerce application that allows customers to create custom bundles, incentivized by various seller determines discounts at specific thresholds. I have taken the lead in designing and developing the admin panel for stores to create bundle campaigns. Estimated release date Sept 2022.',
+        description: 'Bundazzle is a e-commerce application that allows customers to create custom bundles, incentivized by various seller determined discounts at specific thresholds. I have taken the lead in designing and developing the admin panel for stores to create bundle campaigns. Estimated release date Nov. 2022.',
         tech: ['Typescript', 'React SSR w/ Next.js', 'Shopify Polaris', 'Figma', 'Redux'],
         img: 'Bundazzle.png',
         link: {
@@ -27,7 +27,7 @@ export const projects = [
         name : 'Collage',
         description: 'Collage is a web page that allows for users holding NFTs to display them in one space by entering their wallet address.',
         tech: ['React', 'HTML', 'CSS', 'Figma', 'APIs', 'Javascript'],
-        img: 'Collage.png',
+        img: 'CollageScreen.png',
         link: {
             url: 'https://collage-gilt.vercel.app/',
             navigate: 'Visit',

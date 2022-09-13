@@ -10,7 +10,7 @@ const About = () => {
           <div className="work-education-container">
             <div className="education-container">
               <img src={require('../../assets/Suitcase.png')} alt='suitcase icon' className="mortarboard"/>
-              <p className="education">Software Engineer &amp; Designer at Dayton Design</p>
+              <p className="education">Software Engineer &amp; UI/UX Designer</p>
             </div>
             <div className="education-container">
               <img src={require('../../assets/Mortarboard.png')} alt='graduation icon' className="mortarboard"/>
@@ -45,6 +45,15 @@ const About = () => {
               </div>
               <div className="skill">NextJS</div>
               <div className="skill">Node</div>
+            </div>
+          </div>
+          <div className="skills">
+            <div className='skill-row'>
+              <div className="skill-title">
+                <p>Design Tools</p>
+              </div>
+              <div className="skill">Figma</div>
+              <div className="skill">Adobe Creative Suite</div>
             </div>
           </div>
         </div>

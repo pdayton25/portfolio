@@ -1,3 +1,43 @@
+@font-face {
+  font-family: SF Pro Display;
+  src: url(./fonts/SF-Pro-Text-Regular.otf);
+
+  font-family: SF Pro Display L;
+  src: url(./fonts/SF-Pro-Text-Ultralight.otf);
+}
+
+:root {
+  --main-color: #182869;
+  --secondary-color: #6AB0E4;
+  --background-color: #f5f5f7;
+  --background-secondary-color: #dedede;
+}
+
 html {
-    scroll-behavior: smooth;
-  }
+  scroll-behavior: smooth;
+}
+
+.section-select {
+  padding-top: 1rem;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  width: 65%;
+  border-bottom: 1px solid var(--background-secondary-color);
+}
+.select {
+  margin: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  color:rgb(132, 132, 132)
+}
+.select:hover {
+  transition: 150ms linear;
+  color: black;
+  cursor: pointer;
+}
+
+.active {
+  color: var(--secondary-color);
+}

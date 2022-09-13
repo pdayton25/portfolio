@@ -2,7 +2,7 @@
     width: 100%;
     object-fit: cover;
     margin: 0 auto;
-    border-radius: 1rem 1rem 0rem 0rem;
+    border-radius: 1.5rem 1.5rem 0 0;
 }
 .img-container {
     display: flex;
@@ -28,9 +28,9 @@
     flex-direction: column;
     max-width: 1020px;
     align-items: center;
-    border: 1px solid gray;
-    border-radius: 1rem;
+    background-color: var(--background-color);
     margin-bottom: 2rem;
+    border-radius: 1.5rem;
 
 }
 .project-content-container {
@@ -46,10 +46,13 @@
     margin: .5rem;
 }
 .project-name {
-    font-weight: 500;
-    font-size: 2rem;
-    font-family: 'Lato';
+    font-weight: 5ç00;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 48px;
+    line-height: 1.0834933333;
+    letter-spacing: -0.003em;
     color: black;
+    margin-top: 1rem;
 }
 .site-link, .description, .techs {
     font-family: 'Lato', sans-serif;
@@ -60,7 +63,8 @@
     background-color: inherit;
     color: black;
     border: 1px solid black;
-    padding: .25rem 2rem .25rem 2rem;
+    border-radius: 3rem;
+    padding: .25rem 2.5rem .25rem 2.5rem;
 }
 .techs {
     display: flex;
@@ -68,17 +72,15 @@
     flex-wrap: wrap;
     padding: 0;
     padding: .25rem 1rem .25rem 1rem;
-    border-radius: 1rem;
-
-
+    /* border-radius: 1rem; */
 }
 .tech{
     padding: .25rem 1rem .25rem 1rem;
     margin: .2rem;
     list-style-type: none;
-    color: black;
-    border: 1px solid black;
-    border-radius: 1rem;
+    color: #06c;
+    border: 1px solid #06c;
+    /* border: 1px solid rgb(35, 170, 238); */
 }
 .description {
     color: black;

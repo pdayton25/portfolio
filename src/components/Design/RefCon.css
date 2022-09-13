@@ -1,0 +1,42 @@
+.refcon-container {
+    width: 80%;
+    margin: 4rem auto;
+    align-items: center;
+    display: flex;
+    height: 55vh;
+    background: #FDF5EC;
+}
+.left-ref{
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+.refcon-mobile {
+    position: absolute;
+    left: -10%;
+    bottom:-15%;
+    height: 100%;
+}
+.refcon-desc {
+   margin: .5rem;
+}
+.right-ref {
+    width: 50%;
+    margin-left: 2rem;
+}
+.refcon-logo {
+    width: 25vw;
+}
+.refcon-button {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: #F76B1C;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.refcon-arrow {
+    height: 1rem;
+    animation: jiggle;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}

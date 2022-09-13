@@ -1,0 +1,51 @@
+.skylight-container {
+    width: 100vw;
+    min-height: 700px;
+    height: 50vh;
+    display:flex;
+    align-items: center; 
+    background: linear-gradient(#080809, #313131);
+    color: white;
+}
+.right {
+    margin-left: 2rem;
+}
+.design-description {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+.skylight-ipad {
+    width: 50vw;
+}
+.skylight-logo {
+    width: 30vw;
+}
+.skylight-wedge {
+    margin-left: 2rem;
+    height: 1.3rem ;
+    animation-name: jiggle;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes jiggle {
+    0% {margin-left: 2rem; }
+    50% { margin-left: 3rem; }
+    100% { margin-left: 2rem; }
+}
+
+.skylight-button {
+    color: white;
+    font-size: 2rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: none;
+    border: none;
+    font-weight: 300;
+    cursor: pointer;
+}
+.button-wrap {
+    display: flex;
+    align-items: center;
+    font-style: Futua;
+}
