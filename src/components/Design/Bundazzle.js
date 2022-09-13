@@ -7,7 +7,7 @@ const Bundazzle = () => {
             <div className="left-bund">
                 <img src={require('../../assets/pointing.png')} className="pointer" alt='logo' />
             </div>
-            <div className="right-bund">
+            <div className="right-bund" data-aos='fade-up' data-aos-delay="100">
                 <img src={require('../../assets/BundazzleLogo.png')} className="bundazzle-logo" alt='logo' />
                 <img src={require('../../assets/Stars.png')} className="stars" alt='reviews'/>
                 <div className="line"></div>
