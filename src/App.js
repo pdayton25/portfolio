@@ -4,12 +4,12 @@ import About from './components/About/About';
 import Projects from './components/Projects/Projects';
 import Footer from "./components/Footer/Footer";
 import Design from "./components/Design/Design";
-
 //aos
 import Aos from "aos";
 import 'aos/dist/aos.css';
 
 import "./App.css";
+
 
 
 const App = () => {

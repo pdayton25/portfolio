@@ -30,7 +30,7 @@ html {
   margin: 1rem;
   margin-left: 2rem;
   margin-right: 2rem;
-  color:rgb(132, 132, 132)
+  color:rgb(106, 106, 106)
 }
 .select:hover {
   transition: 150ms linear;
@@ -39,5 +39,5 @@ html {
 }
 
 .active {
-  color: var(--secondary-color);
+  color: black;
 }

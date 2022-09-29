@@ -1,0 +1,278 @@
+.page-container {
+    width: 100%;
+}
+.section {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+/* header */
+.project-header {
+    display: flex;
+    position: relative;
+    width: 100%;
+    align-items: center;
+    height: 50vh;
+    background: linear-gradient(97.29deg, #080809 1.76%, #313131 98.48%);
+    overflow: hidden;
+    color: white;
+    min-height: 250px;;
+}
+.header-img-container {
+    width: 47%;
+    height: 100%;
+    position: relative;
+}
+.skylight-img {
+    position: absolute;
+    top: 3%;
+    right: 0;
+    width: 100%;
+    min-height: 100%;
+}
+.content-container {
+    width: 50%;
+    margin: auto 0 auto auto;   
+}
+.skylight-logo {
+    width: 50%;
+}
+.project-description {
+    font-size: 1.5rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 200;
+    width: 80%;
+}
+@media  screen and (max-width: 1150px) {
+    .project-header {
+        height: 40vh;
+    }
+}
+
+
+
+
+
+
+/* overview */
+.project-overview {
+    margin: 0 auto;
+    width: 85%;
+    font-size: 1.5rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 200;
+    text-align: center;
+}
+
+/* Copy paste this over to other pages */
+.details-container {
+    display: grid;
+    position: relative;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 2rem;
+}
+.skylight-mockup {
+    width: 100%;
+    left: -20%;
+}
+.overview-content-container {
+    width: 100%;
+}
+.img-wrapper {
+    position: relative;
+}
+.content-header {
+    font-size: 1.7rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    color: black;
+    margin-top: 4rem;
+}
+.content-p {
+    font-size: 1.5rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 200;
+    text-align: center;
+    color: black;
+}
+.bottom-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+
+
+
+
+/* research */
+.research-section-container {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+}
+.right-research-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list-p{
+    font-size: 1.5rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 200;
+    color: black;
+    padding: .2rem;
+}
+.list-header {
+    font-size: 1.7rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    color: black;
+    margin-top: 4rem;
+    margin-bottom: 0;
+}
+.skylight-dropdown-graphic {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+/* graphic table */
+.goal-section {
+    margin-top: 4rem;
+}
+.table-row {
+    display: grid;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    grid-template-columns: 3fr .5fr 3fr;
+}
+.graphic {
+    width: 80%;
+    height: auto;
+    margin: auto auto;
+}
+
+
+
+
+
+
+
+
+/* userflow */
+.userflow {
+    margin-top: 1rem;
+    width: 100%;
+}
+
+
+
+
+
+
+
+/* design process */
+.design-content-container {
+    width: 100vw;
+}
+.design-content-wrapper {
+    width: 100%;
+}
+.shadow {
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+}
+.group {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+}
+.point-item {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.design-item {
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+/* prototype */
+.medium {
+    width: 70%;
+}
+.center {
+    display: flex;
+    justify-content: center;
+}
+.filter {
+    filter: brightness(0.6);
+}
+.filter:hover {
+    transition-duration: 300ms;
+    filter: brightness(1);
+}
+.remove-margin {
+    margin: 0;
+}
+.small-top-margin {
+    margin: 0;
+    margin-top: .4rem;
+}
+
+
+
+
+
+
+
+
+/* footer */
+.footer {
+    position: relative;
+    height: 45vw;
+}
+.image-group {
+    position: absolute;
+    top: 4rem;
+    width: 120%;
+}
+.end-text {
+    font-size: 1.7rem;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 0;;
+}
+
+
+
+
+
+
+@media screen and (max-width:600px){
+    .project-description, .project-overview, .content-p, .list-p {
+        font-size: 1.2rem;
+    }
+    .content-header, .list-header {
+        font-size: 1.5rem;
+    }
+    .skylight-logo {
+        width: 75%;
+    }
+    .content-header{
+        margin: 1rem;
+    }
+}

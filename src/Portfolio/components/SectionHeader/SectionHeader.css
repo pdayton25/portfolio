@@ -1,0 +1,15 @@
+.section-header-container {
+    width: 100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+.section-title {
+    padding: 1rem;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    margin: 0;
+    font-weight: 500;
+}

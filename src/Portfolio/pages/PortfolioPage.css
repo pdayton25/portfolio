@@ -1,0 +1,153 @@
+/* header */
+.portfolio-logo{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+}
+.portfolio-header {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.portfolio-links {
+    display: flex;
+    list-style: none;
+    font-size: 1.3rem;
+}
+li {
+    padding: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+/* Body */
+.project-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+    margin: 0 auto;
+    margin-top: 3rem;
+    width: 90%;
+    flex-wrap: wrap;
+}
+.project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+    height: 40vw;
+    filter: drop-shadow(.2rem .2rem .3rem rgba(0, 0, 0, 0.25));
+}
+.project:hover {
+    cursor:pointer;
+}
+
+/* Footer */
+.footer-container{
+    margin-top: 3rem;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.portfolio-footer {
+    width: 90%;
+    display: flex;
+}
+
+/* ----- cards ----  */
+
+/* skylight */
+.skylight-card {
+    background: linear-gradient(97.29deg, #080809 1.76%, #313131 98.48%);
+    position: relative;
+}
+.popover-skylight {
+    position: absolute;
+    top: 5%;
+    left: -15%;
+    width: 120%;
+    height: auto;
+}
+
+
+/* Bundazzle */
+.bundazzle-card {
+    position: relative;
+    background: #3070420d;
+}
+.popover-bundazzle {
+    position: absolute;
+    top: 25%;
+    width: 90%;
+    height: auto;
+}
+
+/* Thirteenth */
+.thirteenth-card {
+    position: relative;
+    background: #E7EDF1;
+}
+.popover-thirteenth {
+    position: absolute;
+    top: 20%;
+    left: -25%;
+    height: 75%;
+    width: auto;
+}
+
+/* refcon */
+.refcon-card {
+    position: relative;
+    background: #FDF5EC;
+}
+.popover-refcon {
+    position: absolute;
+    top: 5%;
+    left: -10%;
+    height: 100%;
+    width: auto;
+}
+
+
+
+/* popover */
+.popover {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color:rgba(0, 0, 0, 0.75);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+.project:hover .popover {
+    opacity: 1;
+    height: 100%;
+}
+.project-title-popover {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 3rem;
+    font-weight: 500;
+    margin: 1rem;
+}
+.project-description-popover {
+    width: 80%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200;
+    font-size: 1.3rem;
+    color:#dddddd
+}

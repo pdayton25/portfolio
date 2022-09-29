@@ -17,9 +17,11 @@
 }
 .skylight-ipad {
     width: 50vw;
+    max-height: 100%;
 }
 .skylight-logo {
     width: 30vw;
+    max-height: 40%;
 }
 .skylight-wedge {
     margin-left: 2rem;
