@@ -1,0 +1,47 @@
+.th-header {
+  background: #095383;
+}
+
+.th-details-container {
+  display: grid;
+  position: relative;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 2rem;
+}
+.th-img-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto auto;
+}
+
+.th-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+  
+}
+.grid-item {
+  width: 100%;
+}
+.mood-board {
+  width: 100%;
+}
+.th-mood-board {
+  width: 90%;
+}
+.bold {
+  font-weight: 500;
+}
+
+.design-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+.th-margin-top {
+  margin-top: 4rem;
+}
+.center {
+  text-align: center;
+}

@@ -29,12 +29,14 @@ const PortfolioPage = () => {
                     Resume
                 </li>
                 <li>
+                    <a href='mailto:patrick.dayton24@gmail.com'>
                     Contact
+                    </a>
                 </li>
             </ul>
         </header>
         <body className="project-body">
-            <Link to='/portfolio/Skylight'>
+            <Link to='/portfolio/skylight'>
                 <div className="skylight-card project">
                     <img src={require('../../assets/SkylightIpad.png')} alt='skylight' className="popover-skylight"/>
                     <div className="popover">
@@ -44,7 +46,7 @@ const PortfolioPage = () => {
                     </div>
                 </div>
             </Link>
-            <Link to='./portfolio/Bundazzle'>
+            <Link to='/portfolio/bundazzle'>
                 <div className="bundazzle-card project">
                     <img src={require('../../assets/BundazzleWidget.png')} alt='Bundazzle' className="popover-bundazzle"/>
                     <div className="popover">
@@ -54,7 +56,7 @@ const PortfolioPage = () => {
                     </div>
                 </div>
             </Link>
-            <Link to='./portfolio/Thirteenth'>
+            <Link to='/portfolio/thirteenth'>
                 <div className="thirteenth-card project">
                     <img src={require('../../assets/HomePageThirteenth.png')} alt='Thirteenth Floor' className="popover-thirteenth"/>
                     <div className="popover">
@@ -64,7 +66,7 @@ const PortfolioPage = () => {
                     </div>
                 </div>
             </Link>
-            <Link to='/portfolio/RefCon'>
+            <Link to='/portfolio/refcon'>
                 <div className="refcon-card project">
                     <img src={require('../../assets/RefConMockup.png')} alt='RefCon' className="popover-refcon"/>
                     <div className="popover">
