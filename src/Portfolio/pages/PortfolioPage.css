@@ -14,7 +14,7 @@
 .portfolio-links {
     display: flex;
     list-style: none;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
 }
 li {
     padding: 1rem;
@@ -36,7 +36,21 @@ li {
     color:black;
     transition-duration: 300ms;
 }
-
+.contact-link {
+    all: unset;
+}
+.contact-link:hover, .resume-link:hover {
+    color: #095383;
+    cursor: pointer;
+}
+.resume-link {
+    display: flex;
+    align-items: center;
+}
+.pdf-icon {
+    padding-left: .5rem;
+    max-height: 1.6rem;
+}
 
 
 /* Body */
@@ -59,7 +73,7 @@ li {
     filter: drop-shadow(.2rem .2rem .3rem rgba(0, 0, 0, 0.25));
 }
 .project:hover {
-    cursor:pointer;
+    cursor: pointer;
 }
 
 /* Footer */
