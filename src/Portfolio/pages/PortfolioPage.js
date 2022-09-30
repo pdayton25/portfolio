@@ -51,7 +51,7 @@ const PortfolioPage = () => {
                     <img src={require('../../assets/BundazzleWidget.png')} alt='Bundazzle' className="popover-bundazzle"/>
                     <div className="popover">
                         <h3 className="project-title-popover">Bundazzle</h3>
-                        <p className="project-description-popover">Cliffnote description</p>
+                        <p className="project-description-popover">A bundling application for shopify stores, aiming to increase AOV.</p>
                         <button className="case-study">Case Study</button>
                     </div>
                 </div>
@@ -61,7 +61,7 @@ const PortfolioPage = () => {
                     <img src={require('../../assets/HomePageThirteenth.png')} alt='Thirteenth Floor' className="popover-thirteenth"/>
                     <div className="popover">
                         <h3 className="project-title-popover">13th Floor Investments</h3>
-                        <p className="project-description-popover">Cliffnote description</p>
+                        <p className="project-description-popover">A complete redesign of collateral, for upcoming fundraising round.</p>
                         <button className="case-study">Case Study</button>
                     </div>
                 </div>
@@ -71,7 +71,7 @@ const PortfolioPage = () => {
                     <img src={require('../../assets/RefConMockup.png')} alt='RefCon' className="popover-refcon"/>
                     <div className="popover">
                         <h3 className="project-title-popover">RefCon</h3>
-                        <p className="project-description-popover">Cliffnote description</p>
+                        <p className="project-description-popover">Collage is the one stop shop to view and display your NFTs across networks.</p>
                         <button className="case-study">Case Study</button>
                     </div>
                 </div>

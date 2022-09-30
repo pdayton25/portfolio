@@ -43,5 +43,5 @@
   margin-top: 4rem;
 }
 .center {
-  text-align: center;
+  float: center;
 }
