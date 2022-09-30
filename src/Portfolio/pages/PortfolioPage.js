@@ -10,18 +10,18 @@ import pdf from '../../assets/Patrick_Dayton_UX_Designer.pdf';
 
 const PortfolioPage = () => {
 
-    const handleDownloadClick = () => {
-        fetch('../assets/Patrick_Dayton_UX_Designer.pdf').then(response => {
-            response.blob().then(blob => {
-                // Creating new object of PDF file
-                const fileURL = window.URL.createObjectURL(blob);
-                let alink = document.createElement('a');
-                alink.href = fileURL;
-                alink.download = 'Patrick_Dayton_UX_Designer.pdf';
-                alink.click();
-            })
-        })
-    }
+    // const handleDownloadClick = () => {
+    //     fetch('../assets/Patrick_Dayton_UX_Designer.pdf').then(response => {
+    //         response.blob().then(blob => {
+    //             // Creating new object of PDF file
+    //             const fileURL = window.URL.createObjectURL(blob);
+    //             let alink = document.createElement('a');
+    //             alink.href = fileURL;
+    //             alink.download = 'Patrick_Dayton_UX_Designer.pdf';
+    //             alink.click();
+    //         })
+    //     })
+    // }
     return (
         <>
             <header className="portfolio-header">

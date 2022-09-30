@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import './BundazzlePage.css';
 
 
@@ -7,6 +7,10 @@ import SectionHeader from '../../components/SectionHeader/SectionHeader';
 
 const Bundazzle = () => {
 
+  useEffect(() => {
+    window.scrollTo(0,0);
+  },[]);
+  
   let mainColor = '#3FB25F';
 
   return (

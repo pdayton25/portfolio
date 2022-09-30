@@ -1,9 +1,14 @@
-import React from "react";
+import React, {useEffect} from "react";
 import SectionHeader from "../../components/SectionHeader/SectionHeader";
 import './ThirteenthPage.css';
 
 const ThirteenthPage = () => {
   let mainColor='#2E9CCA'
+
+  useEffect(() => {
+    window.scrollTo(0,0);
+  },[]);
+  
   return (
     <div className="page-container">
       <section className="project-header th-header">

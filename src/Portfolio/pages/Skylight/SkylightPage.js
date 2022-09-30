@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 //Syles
 import './SkylightPage.css';
 
@@ -6,6 +6,11 @@ import './SkylightPage.css';
 import SectionHeader from "../../components/SectionHeader/SectionHeader";
 
 const SkylightPage = () => {
+    
+    useEffect(() => {
+        window.scrollTo(0,0);
+      },[]);
+      
     return (
         <div className="page-container">
             <section className="project-header">
