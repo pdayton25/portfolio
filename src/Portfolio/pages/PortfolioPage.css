@@ -192,4 +192,11 @@ li {
     align-items: center;
     margin: 0 auto;
     padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+.divider {
+    margin-top: 6rem;
+    height: 1rem;
+    width: 100vw;
+    background-color: #080809;
 }
