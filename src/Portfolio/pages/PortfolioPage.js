@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import './PortfolioPage.css';
 
 //pdf
-import pdf from '../../assets/Patrick_Dayton_UX_Designer.pdf';
+import pdf from '../../assets/Patrick_Dayton_-_UI:UX_Designer.pdf';
 
 
 const PortfolioPage = () => {
