@@ -82,8 +82,9 @@ const PortfolioPage = () => {
                     </div>
                 </Link>
             </body>
-            <footer className="footer-container">
-            </footer>
+            <section clasName='graphic-section'>
+                <img src={require('../../assets/patrick_graphic.png')} alt="graphic" className="graphic" />
+            </section>
         </>
     )
 }
