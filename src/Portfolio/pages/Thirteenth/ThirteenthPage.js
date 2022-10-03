@@ -8,7 +8,7 @@ const ThirteenthPage = () => {
   useEffect(() => {
     window.scrollTo(0,0);
   },[]);
-  
+
   return (
     <div className="page-container">
       <section className="project-header th-header">
@@ -32,7 +32,7 @@ const ThirteenthPage = () => {
                 <div className="overview-content-container">
                     <div className="top-content">
                         <h3 className="content-header">Problem</h3>
-                        <p className="content-p">Finding an apartment is easy. Finding the right apartment that matches your lifestyle, in an unfamiliar area, is next to impossible. The availability of location based lifestyle information at the apartment search level is nonexsistant.</p>
+                        <p className="content-p">Exsisting design was dated, and information was difficult to read and understand</p>
                     </div>
                     <div className="bottom-content">
                         <div>
