@@ -1,5 +1,6 @@
 import React from "react";
 import './Bundazzle.css';
+import { Link } from "react-router-dom";
 
 const Bundazzle = () => {
     return (
@@ -14,7 +15,9 @@ const Bundazzle = () => {
                 <p className="design-description">Bundazzle is a bundling application for shopify stores, gamifying the bundling experience increasing AOV for stores.</p>
                 <div className="line"></div>
                 <img src={require('../../assets/BundazzleWidget.png')} loading='lazy' className="bundazzle-app" alt='app'/>
-                <button className="casestudy-button">Checkout Project</button>
+                <Link to="/portfolio/bundazzle">
+                    <button className="casestudy-button">Checkout Project</button>
+                </Link>
             </div>
         </section>
     )

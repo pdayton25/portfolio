@@ -71,12 +71,12 @@ const PortfolioPage = () => {
                         </div>
                     </div>
                 </Link>
-                <Link to='/portfolio/refcon'>
+                <Link to='/portfolio/construction'>
                     <div className="refcon-card project">
                         <img src={require('../../assets/RefConMockup.png')} alt='RefCon' className="popover-refcon"/>
                         <div className="popover">
                             <h3 className="project-title-popover">RefCon</h3>
-                            <p className="project-description-popover">Collage is the one stop shop to view and display your NFTs across networks.</p>
+                            <p className="project-description-popover">A referral and contact network for residential contractors.</p>
                             <button className="case-study">Case Study</button>
                         </div>
                     </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import './ThirteenthFloor.css';
+import { Link } from "react-router-dom";
 
 const ThirteenthFloor = () => {
     return (
@@ -8,7 +9,9 @@ const ThirteenthFloor = () => {
                 <img src={require('../../assets/13thFloorLogo.png')} className="ThirteenthFloor-logo" alt='13th Floor Logo'  data-aos='fade-right' data-aos-delay="100" data-aos-anchor-placement="bottom-bottom"/>
                 <p className="design-description">A complete redesign of 13th Floor Investments collateral, for their upcoming Fund V fundraising round.</p>
                 <div className="button-wrap">
-                <button className="th-button">Case Study</button>
+                <Link to="/portfolio/thirteenth">
+                    <button className="th-button">Case Study</button>
+                </Link>
                 <img src={require('../../assets/13thWedge.png')} className="floor-wedge" alt='wedge'/>
                 </div>
             </div>

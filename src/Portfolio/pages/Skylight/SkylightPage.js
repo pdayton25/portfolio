@@ -6,7 +6,7 @@ import './SkylightPage.css';
 import SectionHeader from "../../components/SectionHeader/SectionHeader";
 
 const SkylightPage = () => {
-    
+
     useEffect(() => {
         window.scrollTo(0,0);
       },[]);
@@ -138,7 +138,7 @@ const SkylightPage = () => {
             </section>
             <SectionHeader title="Prototype" color="#5B99F6" />
             <section className="section center">
-                <a href='patrickdayton.dev/portfolio' target='_blank' className="center">
+                <a href='https://www.figma.com/proto/3zzplpDIHvlXwbv1iN4Nso/Map-Search?page-id=0%3A1&node-id=2%3A26&viewport=337%2C314%2C0.1&scaling=scale-down&starting-point-node-id=2%3A26' target="_blank" className="center">
                     <img src={require('../../../assets/SkylightHome.png')} alt='prototype' className="userflow shadow medium filter"/>
                 </a>
             </section>

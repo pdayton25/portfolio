@@ -9,6 +9,7 @@ import {BrowserRouter,Routes,Route} from 'react-router-dom';
 import SkylightPage from "./Portfolio/pages/Skylight/SkylightPage";
 import BundazzlePage from './Portfolio/pages/Bundazzle/BundazzlePage';
 import ThirteenthPage from './Portfolio/pages/Thirteenth/ThirteenthPage';
+import ConstructionPage from './Portfolio/pages/Construction/ConstructionPage';
 
 ReactDOM.render(
     <BrowserRouter>
@@ -18,6 +19,7 @@ ReactDOM.render(
             <Route path='/portfolio/skylight' element={<SkylightPage />} />
             <Route path='/portfolio/bundazzle' element={<BundazzlePage />} />
             <Route path='/portfolio/thirteenth' element={<ThirteenthPage />} />
+            <Route path='/portfolio/construction' element={<ConstructionPage />} />
         </Routes>
     </BrowserRouter>
     
