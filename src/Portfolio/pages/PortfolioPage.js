@@ -7,12 +7,11 @@ import './PortfolioPage.css';
 
 //pdf
 import pdf from '../../assets/Patrick_Dayton_-_UIUX_Designer.pdf';
-import Carousel, {CarouselItem} from "../components/Carousel/Carousel";
 
 
 const PortfolioPage = () => {
 
-    const [show, setShow] = useState(true)
+    const [show, setShow] = useState(false)
 
     if(show) {
         document.body.style.position = 'fixed'
