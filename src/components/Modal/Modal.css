@@ -10,10 +10,76 @@
     background-color: rgba(65, 65, 65, 0.7);
 }
 .modal {
-    width: 70%;
-    height: 90%;
-    background: white;
+    width: 80%;
+    height: 95%;
+    background: rgb(236, 236, 236);
     display: flex;
     flex-direction: column;
     opacity: 1;
+    overflow: scroll;
+    border-radius: .5rem;
+}
+.modal-header-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    border-bottom: 1px solid #1f1f1f;
+    background-color: #1f1f1f;
+    color: white;
+}
+.modal-header-title {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 300;
+    letter-spacing: 4%;
+    color: #fff;
+}
+.modal-button {
+    border: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    font-size: 1.3rem;
+    background: none;
+    color: #1f1f1f;
+    width: 2rem;
+    height: 2rem;
+    margin: auto 0;
+}
+.modal-button {
+    border: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    font-size: 1.3rem;
+    background: none;
+    color: #fff;
+    width: 2rem;
+    height: 2rem;
+    margin: auto 0;
+}
+.bottom-modal-button {
+    border: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    font-size: 1.3rem;
+    background: none;
+    color: #fff;
+    width: 2rem;
+    height: 2rem;
+    margin: auto 0;
+}
+.modal-button:hover {
+    color: red;
+    font-size: 1.5rem;
+    transition: ease-in;
+    transition-duration: 300ms;
+}
+.modal-footer {
+    display: flex;
+    padding: 2rem;
+    justify-content: right;
+    color: white;
+    border-top: 1px solid #1f1f1f;
+    background-color: #1f1f1f;
 }

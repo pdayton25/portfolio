@@ -1,31 +1,30 @@
-import React from "react";
+import React, {useState} from "react";
 import { Link } from "react-router-dom";
+import Modal from "../../components/Modal/Modal";
 
 //Styles
 import './PortfolioPage.css';
 
 //pdf
-import pdf from '../../assets/Patrick_Dayton_-_UI:UX_Designer.pdf';
+import pdf from '../../assets/Patrick_Dayton_-_UIUX_Designer.pdf';
+import Carousel, {CarouselItem} from "../components/Carousel/Carousel";
 
 
 const PortfolioPage = () => {
 
-    // const handleDownloadClick = () => {
-    //     fetch('../assets/Patrick_Dayton_UX_Designer.pdf').then(response => {
-    //         response.blob().then(blob => {
-    //             // Creating new object of PDF file
-    //             const fileURL = window.URL.createObjectURL(blob);
-    //             let alink = document.createElement('a');
-    //             alink.href = fileURL;
-    //             alink.download = 'Patrick_Dayton_UX_Designer.pdf';
-    //             alink.click();
-    //         })
-    //     })
-    // }
+    const [show, setShow] = useState(true)
+
+    if(show) {
+        document.body.style.position = 'fixed'
+    }
+    if(!show) {
+        document.body.style.position = ''
+    }
+
     return (
         <>
             <header className="portfolio-header">
-                <h1 className="portfolio-logo">Patrick Dayton</h1>
+                <h1 className="portfolio-logo">PATRICK DAYTON</h1>
                 <ul className='portfolio-links'>
                     <li className="resume-link">
                         <a href={pdf} target="_blank" rel="noreferrer" className="contact-link">
@@ -40,51 +39,94 @@ const PortfolioPage = () => {
                     </li>
                 </ul>
             </header>
-            <body className="project-body">
-                <Link to='/portfolio/skylight'>
-                    <div className="skylight-card project">
-                        <img src={require('../../assets/SkylightIpad.png')} alt='skylight' className="popover-skylight"/>
-                        <div className="popover">
-                            <h3 className="project-title-popover">Skylight</h3>
-                            <p className="project-description-popover">A lifestyle first apartment search tool, offering concierge services for those who want a pain free experience.</p>
-                            <button className="case-study">Case Study</button>
-                        </div>
+            <body>
+                <div className="section-header-design">
+                    <div className="header-wrapper">
+                        <p className="section-subtitle">A DEEPER DIVE INTO PREVIOUS PROJECTS</p>
+                        <h2 className="section-header-title">CASE STUDIES</h2>
                     </div>
-                </Link>
-                <Link to='/portfolio/bundazzle'>
-                    <div className="bundazzle-card project">
-                        <img src={require('../../assets/BundazzleWidget.png')} alt='Bundazzle' className="popover-bundazzle"/>
-                        <div className="popover">
-                            <h3 className="project-title-popover">Bundazzle</h3>
-                            <p className="project-description-popover">A bundling application for shopify stores, aiming to increase AOV.</p>
-                            <button className="case-study">Case Study</button>
+                </div>
+                <div className="project-body">
+                    <Link to='/portfolio/skylight'>
+                        <div className="skylight-card project">
+                            <img src={require('../../assets/SkylightIpad.png')} alt='skylight' className="popover-skylight"/>
+                            <div className="popover">
+                                <h3 className="project-title-popover">Skylight</h3>
+                                <p className="project-description-popover">A lifestyle first apartment search tool, offering concierge services for those who want a pain free experience.</p>
+                                <button className="case-study">Case Study</button>
+                            </div>
                         </div>
-                    </div>
-                </Link>
-                <Link to='/portfolio/thirteenth'>
-                    <div className="thirteenth-card project">
-                        <img src={require('../../assets/HomePageThirteenth.png')} alt='Thirteenth Floor' className="popover-thirteenth"/>
-                        <div className="popover">
-                            <h3 className="project-title-popover">13th Floor Investments</h3>
-                            <p className="project-description-popover">A complete redesign of collateral, for upcoming fundraising round.</p>
-                            <button className="case-study">Case Study</button>
+                    </Link>
+                    <Link to='/portfolio/bundazzle'>
+                        <div className="bundazzle-card project">
+                            <img src={require('../../assets/BundazzleWidget.png')} alt='Bundazzle' className="popover-bundazzle"/>
+                            <div className="popover">
+                                <h3 className="project-title-popover">Bundazzle</h3>
+                                <p className="project-description-popover">A bundling application for shopify stores, aiming to increase AOV.</p>
+                                <button className="case-study">Case Study</button>
+                            </div>
                         </div>
-                    </div>
-                </Link>
-                <Link to='/portfolio/construction'>
-                    <div className="refcon-card project">
-                        <img src={require('../../assets/RefConMockup.png')} alt='RefCon' className="popover-refcon"/>
-                        <div className="popover">
-                            <h3 className="project-title-popover">RefCon</h3>
-                            <p className="project-description-popover">A referral and contact network for residential contractors.</p>
-                            <button className="case-study">Case Study</button>
+                    </Link>
+                    <Link to='/portfolio/thirteenth'>
+                        <div className="thirteenth-card project">
+                            <img src={require('../../assets/HomePageThirteenth.png')} alt='Thirteenth Floor' className="popover-thirteenth"/>
+                            <div className="popover">
+                                <h3 className="project-title-popover">13th Floor Investments</h3>
+                                <p className="project-description-popover">A complete redesign of collateral, for upcoming fundraising round.</p>
+                                <button className="case-study">Case Study</button>
+                            </div>
                         </div>
+                    </Link>
+                    <Link to='/portfolio/construction'>
+                        <div className="refcon-card project">
+                            <img src={require('../../assets/RefConMockup.png')} alt='RefCon' className="popover-refcon"/>
+                            <div className="popover">
+                                <h3 className="project-title-popover">RefCon</h3>
+                                <p className="project-description-popover">A referral and contact network for residential contractors.</p>
+                                <button className="case-study">Case Study</button>
+                            </div>
+                        </div>
+                    </Link>
+                </div>
+                <br/>
+                <br/>
+                <div className="section-header-design">
+                    <div className="header-wrapper">
+                        <p className="section-subtitle">EXPOLORE PREVIOUS DESIGN WORKS</p>
+                        <h2 className="section-header-title">DESIGN GALLERY</h2>
                     </div>
-                </Link>
+                    <div className="discover-wrapper">
+                        <p className="discover-button" onClick={() => setShow(true)}>DISCOVER</p>
+                        <img src={require('../../assets/right-wedge.png')} alt="directional arrow" className="wedge" />
+                    </div>
+                </div>
+                <div className="gallery-section-grid">
+                    <div className="design-container" onClick={() => setShow(true)}>
+                        <img src={require('../../assets/CollageMockup.png')} alt="tile" className='gallery-tile' />
+                    </div>
+                    <div className="design-container second" onClick={() => setShow(true)}>
+                        <img src={require('../../assets/RugRadioFinal.png')} alt="tile" className='gallery-tile' />
+                    </div>
+                    <div className="design-container third" onClick={() => setShow(true)}>
+                        <img src={require('../../assets/CryptoCrowdFinal.png')} alt="tile" className='gallery-tile' />
+                    </div>
+                </div>
+                <Modal show={show} setShow={setShow} modalName="Gallery">
+                    <div className="gallery-grid">
+                        <img src={require('../../assets/RugRadioFinal.png')} alt='collage' className="grid-item"/>
+                        <img src={require('../../assets/CollageMockup.png')} alt='collage' className="grid-item"/>
+                        <img src={require('../../assets/CryptoCrowdFinal.png')} alt='collage' className="grid-item"/>
+                        <img src={require('../../assets/BundazzleFinalIteration.png')} alt='collage' className="grid-item"/>
+                        <img src={require('../../assets/HomePage.png')} alt='collage' className="grid-item"/>
+                        <img src={require('../../assets/RefConMobile.png')} alt='collage' className="grid-item"/>
+                        <img src={require('../../assets/ArtStoreFinal.png')} alt='collage' className="grid-item"/>
+                        <img src={require('../../assets/SkylightIpad.png')} alt='collage' className="grid-item"/>
+                    </div>
+                </Modal>
             </body>
             <div className="divider"></div>
             <section clasName='graphic-section'>
-                <img src={require('../../assets/patrick_graphic.png')} alt="graphic" className="graphic" />
+                <img src={require('../../assets/Design_Graphic.png')} alt="graphic" className="pd-graphic" />
             </section>
         </>
     )

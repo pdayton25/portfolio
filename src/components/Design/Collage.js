@@ -10,7 +10,7 @@ const Collage = () => {
                 <img src={require('../../assets/Collage.png')} loading='lazy' className="Collage-logo" alt='collage logo' data-aos='fade-right' data-aos-delay="100" data-aos-anchor-placement="bottom-bottom"/>
                 <p className="design-description">Collage is the one stop shop to view and display your NFTs across networks</p>
                 <div className="button-wrap">
-                <Link to="/portfolio">
+                <Link to="/portfolio/construction">
                     <button className="collage-button">Case Study</button>
                 </Link>
                 <img src={require('../../assets/CollageWedge.png')}  loading='lazy' className="collage-wedge" alt='wedge' />
