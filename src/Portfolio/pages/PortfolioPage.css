@@ -69,6 +69,15 @@ li {
     width: 90%;
     flex-wrap: wrap;
 }
+.project-prototypes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+    width: 90%;
+    flex-wrap: wrap;
+}
 .project {
     display: flex;
     justify-content: center;
@@ -76,6 +85,17 @@ li {
     overflow: hidden;
     width: 100%;
     height: 40vw;
+    border-radius: .2rem;
+
+}
+.project-proto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    border-radius: .2rem;
 }
 .project:hover {
     cursor: pointer;
@@ -108,6 +128,15 @@ li {
     left: -15%;
     width: 120%;
     height: auto;
+}
+
+/* MiScheduling */
+.MiScheduling-card {
+    background: linear-gradient(97.29deg,#6db0eb 1.76%, #a7cbeb 98.48%);
+    position: relative;
+}
+.mischeduling-custom {
+    width: 85%;
 }
 
 
@@ -292,6 +321,21 @@ li {
 }
 .gallery-tile {
     width: 85%;
+}
+.gallery-tile:hover {
+    cursor: pointer;
+}
+.prototypes {
+    height: 90%;
+}
+.prototype-card{
+    background-color: #2897d894;
+}
+.prototype-skylight{
+    background-color: rgb(23, 23, 23)
+}
+.prototypes-skylight{
+    width: 90%;
 }
 .second {
     background-color: #FEB901;

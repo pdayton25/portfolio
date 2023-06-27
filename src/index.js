@@ -10,6 +10,7 @@ import SkylightPage from "./Portfolio/pages/Skylight/SkylightPage";
 import BundazzlePage from './Portfolio/pages/Bundazzle/BundazzlePage';
 import ThirteenthPage from './Portfolio/pages/Thirteenth/ThirteenthPage';
 import ConstructionPage from './Portfolio/pages/Construction/ConstructionPage';
+import MiSchedulingPage from './Portfolio/pages/MiScheduling/MiSchedulingPage';
 
 ReactDOM.render(
     <BrowserRouter>
@@ -20,6 +21,7 @@ ReactDOM.render(
             <Route path='/portfolio/bundazzle' element={<BundazzlePage />} />
             <Route path='/portfolio/thirteenth' element={<ThirteenthPage />} />
             <Route path='/portfolio/construction' element={<ConstructionPage />} />
+            <Route path='/portfolio/MiScheduling' element= {<MiSchedulingPage />} />
         </Routes>
     </BrowserRouter>
     
