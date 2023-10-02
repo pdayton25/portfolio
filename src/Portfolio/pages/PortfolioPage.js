@@ -6,7 +6,7 @@ import Modal from "../../components/Modal/Modal";
 import './PortfolioPage.css';
 
 //pdf
-import pdf from '../../assets/Patrick_Dayton_-_UXUI_Designer.pdf';
+import pdf from '../../assets/Patrick_Dayton-UXUI_Designer.pdf';
 
 
 const PortfolioPage = () => {
