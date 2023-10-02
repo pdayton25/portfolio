@@ -1,5 +1,6 @@
 import React from 'react';
 import "./Hero.css";
+import { Link } from 'react-router-dom';
 
 
 //Wire up email contact
@@ -11,7 +12,7 @@ const Hero = () => {
             <div className="inner-header flex">
                 <div>
                     <h1 className='name'>Patrick Dayton</h1>
-                    <p className='job'>Software Engineer | UI/UX Designer</p>
+                    <p className='job'>UX/UI Designer</p>
                     <div className='link-container'>
                         <a className='social-icon' href='mailto:patrick.dayton24@gmail.com'>
                             <img src={require('../../assets/mail-icon.jpeg')} alt='email' className='social mail'/>
@@ -24,8 +25,10 @@ const Hero = () => {
                         </a>
                     </div>
                     <div className='links'>
-                        <a href="#about" className='link'>About Me</a>
-                        <a href="#projects" className='link'>Projects</a>
+                        <Link to='/portfolio'>
+                            <a href="#projects" className='link'>To Portfolio</a>
+                        </Link>
+                        
                     </div>
                 </div>
             </div>
@@ -43,11 +46,6 @@ const Hero = () => {
                 </g>
                 </svg>
             </div>
-        </div>
-        <div className="content flex">
-            <a href='#about' className='downarrow'>
-                <img src={require('../../assets/arrow.png')} alt='navigation arrow' className='arrow'/>
-            </a>
         </div>
         </>
     );

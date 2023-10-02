@@ -54,7 +54,7 @@ const Bundazzle = () => {
       <SectionHeader title='Research' color={mainColor} />
       <section className="section">
         <p className="content-p">I spoke with shopify store owners I had previously worked with via a previous shopify application.</p>
-        <p className="content-p">After picking their brains, the most requested features were custom user generated bundles, and a recurring campaign feature. This helped guide the definition of our goals.</p>
+        <p className="content-p">After speaking with store owners, the most requested features were custom user generated bundles, with a recurring campaign feature. This helped guide the definition of our goals.</p>
         <div className="bund-research-container">
           <div className="left-reasearch-container">
             <h4 className="content-header">Goals</h4>
@@ -76,13 +76,12 @@ const Bundazzle = () => {
       </section>
       <SectionHeader title='User Flow' color={mainColor} />
       <section className="section">
-        <p className="content-p">Given my research and inital wireframe, I created a user flow to aid in further refining how the application should operate and the necessary elements to accoplish our goals.</p>
+        <p className="content-p">Having gathered requirements and mocking up an inital wireframe, I decided to step back creating the bundling experience flow to ensure the application accoplishs our goals in an expected fashion.</p>
         <h4 className="list-header">Site Visitor</h4>
         <img src={require('../../../assets/UserFlowBundazzle.png')} alt="bundazzle userflow" className="userflow" />
       </section>
-      <SectionHeader title='Design Process' color={mainColor} />
+      <SectionHeader title='Iterative Process' color={mainColor} />
       <section className="section">
-        <h4 className="content-header large">Widget</h4>
         <div className="bund-research-container">
           <div className="left-reasearch-container">
             <h4 className="list-header m-top">Establishing Important Features</h4>
@@ -108,24 +107,24 @@ const Bundazzle = () => {
           <li className="list-p">Initial</li>
           <li className="list-p">Added bundle button for a more intuitive feel adding items to bundle, previously triggered by standard “add to cart button” on exsisting page.</li>
           <li className="list-p">Transitioned to card stack for promotions, providing a cleaner UI and further gameifying the bundling experience.</li>
-          <li className="list-p">Used feeback from usability test. Made transition to progress bar, as it provided better user feedback as to their reached promotions</li>
-          <li className="list-p">Simplified progress bar to reduce visual load on user</li>
-          <li className="list-p">Added progress bar callout (incentivizes adding additional items to bundle), Refined progress bar to provide more defined feedback for user. Added “x” to bundle items allowing user to easily remove items. Enhanced and added discount tag to draw user attention to checkout the bundle.</li>
+          <li className="list-p">Used feeback from usability test. Transitioned to progress bar, as it provided better user feedback as to their reached promotions</li>
+          <li className="list-p">Adjusted the progress bar to be lower profile, reducing visual load.</li>
+          <li className="list-p">Added callout (incentivizes adding additional items to bundle), Refined progress bar to provide more defined feedback for user. Added “x” so a user can easily remove items. Enhanced and added discount tag to draw user attention to checkout the bundle.</li>
         </ol>
-        <h4 className="content-header large">Admin Panel</h4>
+        <h4 className="content-header large">Admin Screens</h4>
         <div className="bund-research-container">
           <div className="left-research-container">
-            <h4 className="list-header m-top">Based upon the widget I determinded the admin panel should include:</h4>
+            <h4 className="list-header m-top">Based upon the application mockups I determinded the admin screens should include:</h4>
             <ul>
               <li className="list-p">Home Page</li>
-              <li className="list-p">Campaign Page</li>
+              <li className="list-p">Campaign Configuration Page</li>
               <li className="list-p">Rules/Segments Page</li>
               <li className="list-p">Designs Page</li>
             </ul>
-            <h4 className="list-header">Multipurpose Camapaign Page</h4>
+            <h4 className="list-header">Campaign Configuration Page</h4>
             <ul>
-              <li className="list-p">Serves as quickstart page for first campaign</li>
-              <li className="list-p">Allows store owners to quickly assemble campaigns based on previously selected/created options increasing usability.</li>
+              <li className="list-p">A thoughful campaign configuration page was essential to the success of the application</li>
+              <li className="list-p">Allows store owners to quickly assemble campaigns based on previously selected/created options increasing usability. We also provide a templated solution to get their first campaign up and running within minutes!</li>
             </ul>
           </div>
           <div className="right-research-container">
@@ -169,9 +168,8 @@ const Bundazzle = () => {
       <section className="section">
         <h4 className="list-header">Release &amp; Analysis</h4>
         <ul>
-          <li className="list-p">Anticipating the release near the end of this year I will be closely monitoring, AOV and conversion rates to determine the effectiveness of our application. </li>
-          <li className="list-p">Communicating directly with stores who have activated our widget will allow for us to build additional features and refine existing design.</li>
-          <li className="list-p">Information will be used to create a thorough whitepaper, and iterate on our current design.</li>
+          <li className="list-p">Communicating directly with stores who have activated our widget will allow for us incrementally improve our product.</li>
+          <li className="list-p">In summation I leaned the importance of requirements gathering, thoughfully working through admin &amp; configurations earlier in the process.</li>
         </ul>
       </section>
       <footer className="bundazzle-foot">

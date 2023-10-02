@@ -138,7 +138,14 @@ li {
 .mischeduling-custom {
     width: 85%;
 }
-
+/* MiBuild */
+.MiBuild-card {
+    background: linear-gradient(97.29deg,#006064 1.76%, #008c9e 98.48%);
+    position: relative;
+}
+.mibuild-custom {
+    width: 85%;
+}
 
 /* Bundazzle */
 .bundazzle-card {

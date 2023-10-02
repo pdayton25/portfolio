@@ -46,6 +46,16 @@ const PortfolioPage = () => {
                     </div>
                 </div>
                 <div className="project-body">
+                    <Link to='/portfolio/MiBuild'>
+                        <div className="MiBuild-card project">
+                            <img src={require('../../assets/MiBuildConfiguration.png')} alt='skylight' className="mibuild-custom"/>
+                            <div className="popover">
+                                <h3 className="project-title-popover">MiBuild</h3>
+                                <p className="project-description-popover">Built from the ground up, MiBuild is a portal connecting builders to trades while enabling an efficient build process, this case study will highlight my design process.</p>
+                                <button className="case-study">Case Study</button>
+                            </div>
+                        </div>
+                    </Link>
                     <Link to='/portfolio/MiScheduling'>
                         <div className="MiScheduling-card project">
                             <img src={require('../../assets/MiSchedulingCalendar.png')} alt='skylight' className="mischeduling-custom"/>
@@ -82,16 +92,6 @@ const PortfolioPage = () => {
                             <div className="popover">
                                 <h3 className="project-title-popover">13th Floor Investments</h3>
                                 <p className="project-description-popover">A complete redesign of collateral, for upcoming fundraising round.</p>
-                                <button className="case-study">Case Study</button>
-                            </div>
-                        </div>
-                    </Link>
-                    <Link to='/portfolio/construction'>
-                        <div className="refcon-card project">
-                            <img src={require('../../assets/RefConMockup.png')} alt='RefCon' className="popover-refcon"/>
-                            <div className="popover">
-                                <h3 className="project-title-popover">RefCon</h3>
-                                <p className="project-description-popover">A referral and contact network for residential contractors.</p>
                                 <button className="case-study">Case Study</button>
                             </div>
                         </div>

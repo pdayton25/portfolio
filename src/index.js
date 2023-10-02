@@ -11,12 +11,14 @@ import BundazzlePage from './Portfolio/pages/Bundazzle/BundazzlePage';
 import ThirteenthPage from './Portfolio/pages/Thirteenth/ThirteenthPage';
 import ConstructionPage from './Portfolio/pages/Construction/ConstructionPage';
 import MiSchedulingPage from './Portfolio/pages/MiScheduling/MiSchedulingPage';
+import MiBuildPage from "./Portfolio/pages/MiBuild/MibuildPage";
 
 ReactDOM.render(
     <BrowserRouter>
         <Routes>
             <Route path="/" element={<App />}/>
             <Route path="/portfolio" element={<Portfolio />}/>
+            <Route path="/portfolio/MiBuild" element={<MiBuildPage />}/>
             <Route path='/portfolio/skylight' element={<SkylightPage />} />
             <Route path='/portfolio/bundazzle' element={<BundazzlePage />} />
             <Route path='/portfolio/thirteenth' element={<ThirteenthPage />} />

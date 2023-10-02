@@ -1,5 +1,5 @@
 .bundazzle-header {
-  background: rgba(48, 112, 66, 0.05); ;
+  background: rgba(48, 112, 66, 0.05);
 }
 .black {
   color: black
@@ -17,6 +17,17 @@
 .bund-container {
   width: 80%;
   margin: 0 auto;
+}
+.project-header {
+  background: rgba(48, 112, 66, 0.05);
+  display: flex;
+  position: relative;
+  width: 100%;
+  align-items: center;
+  height: 50vh;
+  overflow: hidden;
+  color: white;
+  min-height: 250px;;
 }
 
 
