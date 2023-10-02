@@ -99,38 +99,6 @@ const PortfolioPage = () => {
                 </div>
                 <br />
                 <br />
-                <div className="section-header-design">
-                    <div className="header-wrapper">
-                        <p className="section-subtitle">EXPLORE SOME OF MY FAVORITES</p>
-                        <h2 className="section-header-title">PROTOTYPES</h2>
-                    </div>
-                </div>
-                <div className="project-prototypes">
-                <div className="project-proto">
-                    <iframe 
-                        title="easyclean" 
-                        style={{border: "1px solid rgba(0, 0, 0, 0.1)", width: "800px", height: "450px"}} 
-                        src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FfaOrSBO7QAnT1B2dD0e0sB%2FB-Clean%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D158-35122%26viewport%3D-2097%252C-658%252C0.29%26scaling%3Dscale-down%26starting-point-node-id%3D158%253A35122%26mode%3Ddesign"
-                        allowFullScreen
-                    /> 
-                </div>
-                <div className="project-proto">
-                    <iframe 
-                        title="Poller"
-                        style={{border: "1px solid rgba(0, 0, 0, 0.1)", width: "800px", height: "450px"}} 
-                        src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F3qtYLunYhlpaNUnq6Tb2Wr%2FPoller%3Fpage-id%3D21%253A2%26type%3Ddesign%26node-id%3D42-676%26viewport%3D623%252C355%252C0.21%26scaling%3Dscale-down%26starting-point-node-id%3D21%253A119%26show-proto-sidebar%3D1%26mode%3Ddesign" 
-                        allowFullScreen
-                    />
-                </div>
-                <div className="project-proto">
-                    <iframe 
-                        title="mischeduling" 
-                        style={{border: "1px solid rgba(0, 0, 0, 0.1)", width: "800px", height: "450px"}} 
-                        src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FQUIkV3RwArBUc6SOlnlwfl%2FMiScheduling-Portfolio%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D1-2016%26viewport%3D145%252C242%252C0.11%26scaling%3Dmin-zoom%26starting-point-node-id%3D1%253A2016%26show-proto-sidebar%3D1%26mode%3Ddesign" 
-                        allowFullScreen
-                    />
-                </div>
-                </div>
                 <br/>
                 <br/>
                 <div className="section-header-design">
