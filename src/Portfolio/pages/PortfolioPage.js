@@ -46,7 +46,7 @@ const PortfolioPage = () => {
                     </div>
                 </div>
                 <div className="project-body">
-                    <Link to='/portfolio/MiBuild'>
+                    <Link to='/portfolio/Construction'>
                         <div className="MiBuild-card project">
                             <img src={require('../../assets/MiBuildConfiguration.png')} alt='skylight' className="mibuild-custom"/>
                             <div className="popover">
@@ -56,7 +56,7 @@ const PortfolioPage = () => {
                             </div>
                         </div>
                     </Link>
-                    <Link to='/portfolio/MiScheduling'>
+                    <Link to='/portfolio/Construction'>
                         <div className="MiScheduling-card project">
                             <img src={require('../../assets/MiSchedulingCalendar.png')} alt='skylight' className="mischeduling-custom"/>
                             <div className="popover">
