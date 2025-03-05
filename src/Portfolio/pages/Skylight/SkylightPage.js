@@ -37,7 +37,7 @@ const SkylightPage = () => {
                         <div className="bottom-content">
                             <div>
                                 <h3 className="content-header">Role</h3>
-                                <p className="content-p">Sole UI/UX Designer</p>
+                                <p className="content-p">Product Designer</p>
                             </div>
                             <div>
                                 <h3 className="content-header">Duration</h3>
