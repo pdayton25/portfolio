@@ -41,7 +41,7 @@ const Bundazzle = () => {
                         <div className="bottom-content">
                             <div>
                                 <h3 className="content-header">Role</h3>
-                                <p className="content-p">Lead UI/UX Designer (Team of 2)</p>
+                                <p className="content-p">Product Designer</p>
                             </div>
                             <div>
                                 <h3 className="content-header">Duration</h3>
