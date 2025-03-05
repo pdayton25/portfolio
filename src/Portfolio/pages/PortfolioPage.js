@@ -46,17 +46,17 @@ const PortfolioPage = () => {
                     </div>
                 </div>
                 <div className="project-body">
-                    <Link to='/portfolio/Construction'>
+                    <Link to='/portfolio/MiBuild'>
                         <div className="MiBuild-card project">
                             <img src={require('../../assets/MiBuildConfiguration.png')} alt='skylight' className="mibuild-custom"/>
                             <div className="popover">
                                 <h3 className="project-title-popover">MiBuild</h3>
-                                <p className="project-description-popover">Built from the ground up, MiBuild is a portal connecting builders to trades while enabling an efficient build process, this case study will highlight my design process.</p>
+                                <p className="project-description-popover">MiBuild is a portal connecting builders to trades while enabling an efficient build process.</p>
                                 <button className="case-study">Case Study</button>
                             </div>
                         </div>
                     </Link>
-                    <Link to='/portfolio/Construction'>
+                    <Link to='/portfolio/MiScheduling'>
                         <div className="MiScheduling-card project">
                             <img src={require('../../assets/MiSchedulingCalendar.png')} alt='skylight' className="mischeduling-custom"/>
                             <div className="popover">
