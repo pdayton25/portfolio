@@ -26,7 +26,7 @@ const PortfolioPage = () => {
                 <h1 className="portfolio-logo">PATRICK DAYTON</h1>
                 <ul className='portfolio-links'>
                     <li className="resume-link">
-                        <a href={pdf} target="_blank" rel="noreferrer" className="contact-link">
+                        <a href="/portfolio/Construction" target="_blank" rel="noreferrer" className="contact-link">
                             Resume
                         </a>
                         <img src={require('../../assets/PDFIcon.png')} alt="pdf icon" className="pdf-icon" />
