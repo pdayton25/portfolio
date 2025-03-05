@@ -37,7 +37,7 @@ const MiBuildPage = () => {
                         <div className="bottom-content">
                             <div>
                                 <h3 className="content-header">Role</h3>
-                                <p className="content-p">UX/UI Designer, *Product Manager</p>
+                                <p className="content-p">Product Designer</p>
                             </div>
                             <div>
                                 <h3 className="content-header">Duration</h3>
